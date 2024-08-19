@@ -547,6 +547,50 @@ top: 5rem;
     color: #50050c;
 }
 
+.titulocontacto {
+    color: #4c2882;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center; 
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.subtitulocontacto {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    color: #33005e;
+}
+
+.contenedorformulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.3rem solid #33005e;
+    max-width: 15rem;
+    margin: 0 auto;
+
+}
+
+.elementosform {
+    justify-self: center;
+
+    padding: 0.5rem;
+}
+
+.botonenviar {
+    margin-left: 5rem;
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
    
     .juguetesgrilla {
