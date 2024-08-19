@@ -27,28 +27,30 @@
             
             <h1 class="titulocontacto">CONTACTANOS</h1>
     
-            <H2 class="subtitulocontacto">COMPLETA EL FORMULARIO</H2>
+            <div class="container">
+                <form class="form">
+                    <h2>Completa el Formulario</h2>
+                    
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label  for="options">CONSULTA POR:</label>
+                    <select id="options" name="options" required>
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="option1">Venta Mayorista</option>
+                        <option value="option2">Venta Minorista</option>
+                    </select>
 
-            <div class="contenedorformulario">
-                <form action="form.php" method="post">
-                <div class="elementosform"><label for="Nombre">Nombre y Apellido</label>
-                <input type="text" name="Nombre" id="Nombre" placeholder="María López"></div>
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
 
-                <div class="elementosform"><label for="mail">Mail</label>
-                <input type="email" name="mail" id="mail"></div>
-
-            <div class="elementosform"><label for="compra">CONSULTA SOBRE</label>
-                <select name="compra" id="compra">
-                    <option value="compramayorista">COMPRA MINORISTA</option>
-                    <option value="compraminorista">COMPRA MAYORISTA</option>
-                </select></div>
-
-            <div class="elementosform"><label for="comentarios">MENSAJE</label>
-                <textarea name="comentarios" id="comentarios"></textarea></div>
-
-              
-            <div class="elementosform"><input class="botonenviar" type="submit" value="enviar"></div>
-            </form>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
             
             <H3>DONDE ESTAMOS</H3>
