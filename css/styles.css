@@ -586,7 +586,7 @@ top: 5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.h2form {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -597,7 +597,7 @@ h2 {
 }
 
 
-label {
+.label {
     margin-bottom: 5px;
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
@@ -606,14 +606,14 @@ label {
     color: #5b0f72;;
 }
 
-input, textarea, select {
+.input, .textarea, .select {
     width: 100%;
     padding: 10px;
     border: 1px solid #a77ff1;
     border-radius: 4px;
 }
 
-button {
+.button {
     padding: 10px;
     border: none;
     border-radius: 4px;
@@ -624,6 +624,39 @@ button {
 
 button:hover {
     background-color: #972eee;
+}
+.subtituloubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-size: 20px;
+    margin: 0 0 15px;
+    color: #5b0f72;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.containerubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mapa {
+    border-radius: 1rem;
+}
+
+.ubicacionparrafo {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 14px;
+    color: #420061; 
+    padding-left: 1rem;
 }
 
 
